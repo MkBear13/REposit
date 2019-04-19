@@ -1,9 +1,7 @@
-def f(list1,list2,dictor={}):
+def slovar(list1,list2,dictor={}):
     d=dict(zip(list1, list2))
     if dictor=={}:
-        print(d)
+        return(d)
     else:
         dictor.update(d)
-        print(dictor)
-
-
+        return(dictor)
