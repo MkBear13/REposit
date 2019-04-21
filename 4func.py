@@ -1,12 +1,13 @@
 import calendar
-def f(arg):
-    if calendar.isleap(arg)==True:
+
+
+def visokosn(year):
+    if calendar.isleap(year)==True:
         print('Год високосный')
     else:
         print('Год не високосный')
-def func(arg):
-    if arg%400==0  or (arg%4==0 and arg%100!=0):
+def visocosn2(year):
+    if year%400==0  or (year%4==0 and year%100!=0):
         print('Год  високосный')
     else:
         print('Год не високосный')
-
